@@ -17,3 +17,4 @@ Test Gemini Pro with bilingual content
 * Consider each prompt starting a new chat, current API setup in the code does not consider previous prompts. You can read API documentation to change it.
 * Read privacy policy of Google and act accordingly. With free API Google uses your input and outputs to train data. Do not use it with confidential content.
 * Read API limitations indicated by Google.
+* sample.xlf file is fully created by Bard.
