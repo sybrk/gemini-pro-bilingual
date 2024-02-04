@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Test Gemini Pro</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+		<script src="script/myscript.js"></script>
+		<style id="style">
+			bpt, bx, ept, ex, g, ph, x, it {
+			color: blue;
+			}
+		</style>
+    </head>
+    <body>
+		<div class="mx-3">
+			<h1 class="h1 bg-info">Test Gemini Pro with Bilingual Content</h1>
+			<a href="https://makersuite.google.com/" target="_blank">Get your Gemini API key.</a>
+			<div id="firstdiv" class="d-flex flex-column mx-3">
+				<div class="d-flex flex-row gap-2 align-items-center mx-3 my-2">
+					<input class="form-control h-25 flex-shrink-1 w-50" type="file" id="choosefiles" multiple accept=".xliff, xlf">
+					<button id="readbutton" class="rounded-pill btn btn-success text-black h-25" type="button">Read</button>
+					<button id="resetbutton" class="rounded-pill btn btn-info h-25" type="button">Reset</button>
+					<button id="aibutton" class="rounded-pill btn btn-danger h-25" type="button">AI</button>
+					<textarea class="form-control" id="apikeygemini" placeholder="Enter your API Key"></textarea>
+
+				</div>
+				<div id="promptfield" class="d-flex flex-row mx-3 my-2 gap-3 align-items-center">
+					<label for="temperature">Temperature</label>
+					<input id="temperature" type="range" min="0" max="1" value="0.9" step="0.1" oninput="this.nextElementSibling.value = this.value"/>
+					<output>0.9</output>
+					<label for="columnpref">Overwrite AI output at each request?</label>
+					<select class="form-select h-25 w-25" name="columnpref" id="columnpref">
+						<option value="yes">Overwrite</option>
+						<option value="no">Append</option>
+					</select>
+					<label for="inputpref">Choose content to send:</label>
+					<select class="form-select h-25 w-25" name="inputpref" id="inputpref">
+						<option value="both">Both</option>
+						<option value="source">Source</option>
+						<option value="target">Target</option>
+					</select>
+					
+				</div>
+				<div class="d-flex my-2">
+					<textarea class="form-control" id="prompt" placeholder="Enter prompt" style="margin: auto; width: 750px;"></textarea>
+				</div>
+				<div class="">
+					<p style="visibility: hidden;" id="placedapi"></p>
+					<table class="table table-bordered">
+						<thead>
+							<tr>
+								<th scope="col">File Name</th>
+								<th scope="col">Status</th>
+								<th scope="col">Source Text</th>
+								<th scope="col">Target Text</th>
+								<th scope="col">AI Output</th>
+							</tr>
+						</thead>
+						<tbody id="tbody" class="table-group-divider">
+						</tbody>
+					</table>
+				</div>
+			</div>
+		<div>
+    </body>
+</html>

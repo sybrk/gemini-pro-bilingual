@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:version:1.2 xliff.xsd">
+  <file source-language="en" target-language="tr">
+    <body>
+      <trans-unit id="unit1">
+        <source>Good morning! How can I help you today?</source>
+        <target>Günaydın! Bugün size nasıl yardımcı olabilirim?</target>
+      </trans-unit>
+      <trans-unit id="unit2">
+        <source>I'm looking for information about your latest products.</source>
+        <target>En yeni ürünleriniz hakkında bilgi arıyorum.</target>
+      </trans-unit>
+      <trans-unit id="unit3">
+        <source>We have a wide range of products to choose from. What are you interested in?</source>
+        <target>Seçebileceğiniz çok çeşitli ürünlerimiz var. Ne ile ilgileniyorsunuz?</target>
+      </trans-unit>
+      <trans-unit id="unit4">
+        <source>I'm interested in electronics, specifically smartphones.</source>
+        <target>Elektronik, özellikle de akıllı telefonlar ile ilgileniyorum.</target>
+      </trans-unit>
+      <trans-unit id="unit5">
+        <source>Great! We have a variety of smartphones to suit different needs and budgets.</source>
+        <target>Harika! Farklı ihtiyaçlara ve bütçelere uygun çeşitli akıllı telefonlarımız var.</target>
+      </trans-unit>
+      <trans-unit id="unit6">
+        <source>Can you tell me more about the features of your latest smartphone model?</source>
+        <target>En yeni akıllı telefon modelinizin özellikleri hakkında daha fazla bilgi verebilir misiniz?</target>
+      </trans-unit>
+      <trans-unit id="unit7">
+        <source>Certainly. Our latest model boasts a high-resolution camera, a long-lasting battery, and a powerful processor.</source>
+        <target>Elbette. En yeni modelimiz yüksek çözünürlü bir kamera, uzun ömürlü bir pil ve güçlü bir işlemciye sahiptir.</target>
+      </trans-unit>
+      <trans-unit id="unit8">
+        <source>That sounds impressive! What is the price?</source>
+        <target>Bu etkileyici görünüyor! Fiyatı nedir?</target>
+      </trans-unit>
+      <trans-unit id="unit9">
+        <source>The price depends on the storage capacity you choose. However, it starts at around ₺2,000.</source>
+        <target>Fiyat, seçtiğiniz depolama kapasitesine bağlıdır. Ancak ₺2.000 civarında başlıyor.</target>
+      </trans-unit>
+      <trans-unit id="unit10">
+        <source>Thank you for the information. I'll think about it and let you know if I have any further questions.</source>
+        <target>Bilgi için teşekkür ederim. Düşüneceğim ve başka sorularım olursa size haber vereceğim.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
